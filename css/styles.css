@@ -170,3 +170,40 @@ form.submitting .wpcf7-spinner {
 .wpcf7-reflection > output[hidden] {
 	display: none;
 }
+
+
+  .price-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .Discount {
+    background: linear-gradient(135deg, #ff4d4d, #ff1a1a);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
+   
+  }
+
+  .MRP {
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.6;
+    position: relative;
+     margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .MRP::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transform: translateY(-50%);
+  }
